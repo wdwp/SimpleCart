@@ -54,7 +54,7 @@ class SimpleCart extends CMSModule
 
 	function GetVersion()
 	{
-		return '1.0';
+		return '1.1';
 	}
 
 	function GetHelp()
@@ -109,7 +109,7 @@ class SimpleCart extends CMSModule
 
 	function GetDependencies()
 	{
-		return array('SimpleShop' => '1.0', 'FrontEndUsers' => '3.0.0', 'CMSMailer' => '6.2');
+		return array('SimpleShop' => '1.0', 'FrontEndUsers' => '3.0.0');
 	}
 
 	function MinimumCMSVersion()
